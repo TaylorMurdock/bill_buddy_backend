@@ -61,7 +61,7 @@ Happy subscription tracking with Bill Buddy! Stay on top of your bills, manage y
 
 ## Mock Up of UI:
 
-![Wireframe]()
+![Wireframe](public/images/WireFrameBillBuddy.png)
 
 ## List of Backend Endpoints:
 
@@ -81,7 +81,7 @@ Happy subscription tracking with Bill Buddy! Stay on top of your bills, manage y
 
 ## ERD (entitity relationship diagram):
 
-![ERD]()
+![ERD](public/images/BillBuddyERD.png)
 
 made with https://lucid.app.com
 
