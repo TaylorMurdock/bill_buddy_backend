@@ -1,3 +1,10 @@
-from django.shortcuts import render
+from .models import Bills
+from rest_framework import viewsets
+from rest_framework import permissions
+from .serializers import BillsSerializer
 
-# Create your views here.
+
+class BillsViewSet(viewsets.ModelViewSet):
+    queryset = Bills.objects.all()
+    serializer_class = BillsSerializer
+    permission_classes = [permissions.AllowAny]
