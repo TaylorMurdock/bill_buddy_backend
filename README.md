@@ -7,7 +7,7 @@
 
 **List of technologies used:**
 
-- React, JavaScript, Django
+- React, JavaScript, Django, Python, Neon
 
 ## About Bill Buddy
 
