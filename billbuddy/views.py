@@ -10,7 +10,6 @@ class BillsViewSet(viewsets.ModelViewSet):
     serializer_class = BillsSerializer
     permission_classes = [permissions.AllowAny]
 
-    # Modify the update method to allow partial updates
     def partial_update(self, request, *args, **kwargs):
         instance = self.get_object()
         serializer = self.get_serializer(
