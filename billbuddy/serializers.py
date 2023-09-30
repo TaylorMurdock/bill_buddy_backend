@@ -21,6 +21,6 @@ class UsersSerializer(serializers.HyperlinkedModelSerializer):
         model = Users
         fields = ['id', 'email', 'password']
         extra_kwargs = {
-            'email': {'required': True, 'unique': True},
+            'email': {'required': True},
             'password': {'required': True},
         }
