@@ -9,3 +9,8 @@ class Bills(models.Model):
     bill_date = models.DateField()
     # bill_date = models.CharField(max_length=100)
     subscription_price = models.CharField(max_length=100)
+
+
+class Users(models.Model):
+    email = models.CharField(max_length=100)
+    password = models.CharField(max_length=100)

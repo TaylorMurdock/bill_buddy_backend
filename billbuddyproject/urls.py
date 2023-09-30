@@ -18,9 +18,11 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from billbuddy.views import BillsViewSet
+from billbuddy.views import UsersViewSet
 
 router = routers.DefaultRouter()
 router.register(r'bills', BillsViewSet)
+router.register(r'users', UsersViewSet)
 
 urlpatterns = [
     # add all of our router urls
